@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ingrese las edades correspondientes a cada turno:</h1>
+    <form>
+        <div style="margin-bottom: 5px;">
+            <label>Cinco (5) estudiantes del turno mañana:</label>
+            <input type="text" id="t1" placeholder="Ejemplo: 10,11,12...">
+        </div>
+        <div style="margin-bottom: 5px;">
+            <label>Seis (6) estudiantes del turno tarde:</label>
+            <input type="text" id="t2">
+        </div>
+        <label>Once (11) estudiantes del turno noche:</label>
+        <input type="text" id="t3">
+        <div style="margin: 10px 10px 10px 250px;">
+            <input type="button" value="Calcular Promedios" onclick="turnos()">
+        </div>
+    </form>
+    <div id="resultado"></div>
+    <script src = "script.js"></script>
+</body>
+</html>
